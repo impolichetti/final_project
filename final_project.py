@@ -43,7 +43,6 @@ class DivorceData(db.Model):
     GD_all = db.Column(db.Float)
 
 with app.app_context():
-    db.drop_all()
     db.create_all()
 
     divorce = pd.read_csv("C:\\Users\\bella\\OneDrive\\UMass School\\DACSS 690A\\final_project\\final_project\\divorce.csv")
