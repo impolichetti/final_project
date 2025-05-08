@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import os
 
