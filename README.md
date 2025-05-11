@@ -1,6 +1,5 @@
 # final_project
-Marriage Dataset 
-
+marriage dataset
 
 ## Data Source
 - The data used in this project is sourced from a CSV file containing information about divorce rates, income levels, and other demographic variables. Specifically, the file includes divorce rates for two age groups (35-44 and 45-54 years old) across different income levels (poor, middle class, and rich) and education levels (higschool, some college, bachelors only, bachelors or more, and graduate degree).
