@@ -45,7 +45,7 @@ class DivorceData(db.Model):
 with app.app_context():
     db.create_all()
 
-    divorce = pd.read_csv("C:\\Users\\bella\\OneDrive\\UMass School\\DACSS 690A\\final_project\\final_project\\divorce.csv")
+    divorce = pd.read_csv("https://github.com/impolichetti/final_project/raw/refs/heads/main/divorce.csv")
     divorce.fillna(0, inplace=True)
 
     divorce['poor_all'] = divorce['poor_3544'] + divorce['poor_4554']
